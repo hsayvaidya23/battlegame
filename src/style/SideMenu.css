@@ -1,0 +1,56 @@
+.side-menu__popup,
+.side-menu__quit-popup {
+  z-index: 5;
+  opacity: 0;
+  background-color: #101010;
+  flex: none;
+  margin-left: 7vh;
+  padding: .3vh 1vh;
+  display: none;
+  transition: opacity 0.3s ease;
+}
+
+.side-menu__quit-popup {
+  margin-left: 4vh;
+}
+
+.side-menu__text {
+  color: #fff;
+  text-align: center;
+  letter-spacing: .07vh;
+  text-transform: uppercase;
+  font-family: Rajdhani, sans-serif;
+  font-size: 1.3vh;
+  font-weight: 500;
+  line-height: 1.5vh;
+  text-decoration: none;
+}
+
+/* Add these new styles */
+.side-menu__game,
+.side-menu__career,
+.side-menu__watch,
+.side-menu__news,
+.side-menu__help,
+.side-menu__quit {
+  cursor: default;
+}
+
+.side-menu__game:hover .side-menu__popup,
+.side-menu__career:hover .side-menu__popup,
+.side-menu__watch:hover .side-menu__popup,
+.side-menu__news:hover .side-menu__popup,
+.side-menu__help:hover .side-menu__popup,
+.side-menu__quit:hover .side-menu__quit-popup {
+  display: block;
+  opacity: 1;
+}
+
+.side-menu__game:hover,
+.side-menu__career:hover,
+.side-menu__watch:hover,
+.side-menu__news:hover,
+.side-menu__help:hover,
+.side-menu__quit:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}

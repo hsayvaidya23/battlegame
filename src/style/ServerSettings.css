@@ -1,0 +1,35 @@
+.server__setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 2vh;
+    margin-bottom: 1vh;
+    transition: all 0.3s ease;
+  }
+  
+  .server__setting-text {
+    color: #fff;
+    font-family: Rajdhani, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1vh;
+    transition: color 0.3s ease;
+  }
+  
+  .server__setting:hover {
+    border-color: rgba(255, 255, 255, 0.8);
+    background-color: #fff;
+    cursor: default;
+  }
+  
+  .server__setting:hover .server__setting-text {
+    color: #333;
+  }
+
+
+  
+
+
+
+   
